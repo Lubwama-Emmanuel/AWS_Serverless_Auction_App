@@ -1,0 +1,5 @@
+AUCTIONTABLEIAM:
+  Effect: 'Allow'
+  Action:
+    - 'dynamodb:PutItem'
+  Resource: ${self:custom.AuctionsTable.arn}
